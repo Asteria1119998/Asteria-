@@ -57,12 +57,7 @@
 
 ## 安装与使用
 
-### Claude / Grok
-将本仓库中的 skill 文件夹放到对应平台的 skills 目录即可。模型会根据 description 自动触发。
-
-### GPT、Workbuddy 及其他平台
-使用 `portable-core.md` 的内容作为系统提示或长期指令。  
-需要更强约束时，把 `scripts/validate_output.py` 一并提供，让模型在输出后自检。
+下载仓库 ZIP → 解压得到完整 deep-structure-thinking 文件夹 → Claude/Grok 用户把整个文件夹放进 skills 目录或上传；其他平台用户复制 portable-core.md 到系统提示即可。
 
 ## 设计原则
 
