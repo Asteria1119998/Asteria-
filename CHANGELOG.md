@@ -9,3 +9,4 @@
 - Added retrieval scenario extension (`references/retrieval.md`)
 - Requires explicit Grounded Data, bidirectional evidence (positive + negation), evidence comparison, and negation blind-spot check for retrieval/RAG tasks
 - Updated SKILL.md with navigation rule for retrieval scenarios
+- 新增差距过大时的澄清协议：先提出 3 个多选问题，仍模糊时再提出最多 3 个，总数不超过 6 个。
