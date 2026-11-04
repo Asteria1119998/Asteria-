@@ -1,0 +1,11 @@
+{
+  "skill": "deep-structure-thinking",
+  "test_cases": [
+    {"input": "classify this problem by deep structure", "should_trigger": true},
+    {"input": "don't just give me code, show the gap first", "should_trigger": true},
+    {"input": "why did this work once?", "should_trigger": true},
+    {"input": "write a quick hello world", "should_trigger": false},
+    {"input": "what's the weather", "should_trigger": false},
+    {"input": "review this AI-generated script for failure points", "should_trigger": true}
+  ]
+}

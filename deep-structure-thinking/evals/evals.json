@@ -1,0 +1,32 @@
+{
+  "skill": "deep-structure-thinking",
+  "test_cases": [
+    {
+      "name": "requires_structure_classification",
+      "input": "Why did this prompt work once but fail the next three times?",
+      "assertions": [
+        "Must start with Structure Classification identifying sampling or variance",
+        "Must not treat the single success as capability",
+        "Must include Intent, Specification, and Gap"
+      ]
+    },
+    {
+      "name": "blocks_direct_code",
+      "input": "Write a Python script that scrapes this site and saves to CSV",
+      "assertions": [
+        "Must produce Design and Field Map before any code",
+        "Must include Hypothesis / Test / Correction",
+        "Must not emit implementation first"
+      ]
+    },
+    {
+      "name": "specification_gap_explicit",
+      "input": "Make an agent that is helpful but never hallucinates",
+      "assertions": [
+        "Must explicitly name the Intent-Specification gap",
+        "Must classify as specification or mixed",
+        "Must propose testable checks rather than vague promises"
+      ]
+    }
+  ]
+}
